@@ -1,0 +1,296 @@
+ *{
+   margin: 0;
+   font-family: arial;
+   
+
+ }
+ .navbar{
+    background-color:#131a22;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+
+   
+ 
+}
+.navborder{
+           border: 1.5px solid transparent;
+
+}
+.navborder:hover{
+            border: 1.5px solid white;
+            border-radius: 4%;
+
+}
+.nav_logo{
+        height: 50px;
+        width: 100px;
+         padding:right 100px;
+          padding:left 100px;
+
+
+
+}
+.logo{
+    background-image: url(logo.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+    height: 40px;
+    width:100%;
+    align-self: center;
+   
+}
+.address{
+    height: 50px;
+    width: 92px;
+    color: white;
+     padding:right 100px;
+      padding:left 100px;
+   
+}
+
+.add_first{
+         
+         margin-left: 15px;
+         color: #cccccc;
+            font-size: 0.75rem;
+
+
+}
+.add_second{
+             font-size: 0.95rem;
+          
+
+}
+.addlogo{
+         display: flex;
+ 
+}
+.search{
+    
+      display: flex;
+      background-color: #131a22;
+      height: 40px;
+      width: 1300px;
+       padding:right 100px;
+        padding:left 100px;
+         border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+       border-top-left-radius: 15%;
+      border-bottom-left-radius: 15%;
+     
+}
+.searchselect{
+            background-color: #e6e6e6;
+            border: none;
+            height: 100%;
+            width: 50px;
+
+}
+.searchinput{
+           background-color:white;
+           height: 34px;
+           width: 1050px;
+          
+}
+.button{
+      background-color: orange;
+      height:  100%;
+      width: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      
+
+}
+.buttonicon{
+          font-size: 19px;
+
+}
+
+
+.sign{
+     height: 50px;
+     width: 120px;
+     margin-left: 20px;
+       padding:left 100px;
+      padding:right 100px;
+     
+  
+
+}
+span{
+      color: white;
+      font-size: 0.75rem ;
+
+}
+.acc{
+      color: white;
+      font-size: 0.9rem ;
+      font-weight: 700;
+
+}
+.cart{
+     font-size: 2rem ;
+     color: white;
+     height: 50px;
+     width: 58px;
+     padding:right 100px;
+     padding:left 100px;
+     
+}
+.navbar2{
+      background-color:#222f3d ;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      color: white;
+}
+.menu{
+     
+      font-size: 1.2rem;
+      align-items: center;
+}
+.all{
+       
+      font-size: 0.85rem;
+            align-items: center;
+}
+.panelops p{
+   
+   
+        display:inline ;
+        font-size: 0.85rem;
+      
+
+}
+.deals{
+       font-size: 0.85rem;
+       font-weight: 600;
+       
+
+}
+.imgmain{
+      background-image: url("https://m.media-amazon.com/images/I/81hIlE5xocL._SX3000_.jpg");
+    height: 400px;
+   background-size: cover;
+}
+.hero1{
+     display: flex; 
+     justify-content: space-evenly;
+     background-color: #e2e7e6;
+}
+.box{
+    height: 360px;
+    width: 307px;
+    background-color: white;
+    margin-top: 25px;
+    padding:  20px 0px 15px;
+  
+}
+.boximg{
+
+      height: 280px;
+      width: 260px;
+     background-size: cover;
+}
+.boxcontent{
+     margin-right: 22px ;
+     margin-left: 22px ;
+     padding-top: 20px ;
+     margin-bottom: 25px;
+}
+.p{
+  font-size: 0.75rem;
+  color:#2162a1 ;
+  font-weight: 550;
+   padding-top: 20px;   
+}
+h3{
+  
+  text-align: center;
+
+}
+footer{
+   margin-top: 20px;
+
+}
+.footpanel1{
+  background-color: #37475a;
+  color: white;
+  height: 60px;
+  font-size: 0.73rem;
+  font-weight: 650;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.footpanel2{
+  height: 300px;
+  background-color: #222f3d  ;
+  color: white;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+ul{
+ 
+  display: block;   
+} 
+.plast{
+  font-weight: 650;
+  padding-top: 40px; 
+  font-size: 1rem;   
+}
+
+
+
+ul p{
+  font-size: 0.78rem;
+  padding-right: 100px;
+  padding-top: 10px;
+  color: #dddddd;    
+
+}
+.footpanel3{
+      height: 73px;
+      background-color: #222f3d  ;
+      border-top:0.2px solid  grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       
+}
+.footlogo{
+       background-image: url(logo.png);
+       background-size: cover;
+       height: 27px;
+       width: 80px;
+      
+   
+}
+.footpanel4{
+      background-color: #131a22;
+      height: 77px;
+      color: #dddddd;
+      font-size: 0.75rem;
+      text-align: center
+
+}
+.pages{
+     
+      padding-top:17px ;
+      padding-bottom: 8px;
+
+}
+.copyright{
+
+}
+
+
